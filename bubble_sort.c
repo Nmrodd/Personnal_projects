@@ -1,8 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <assert.h>
-#include <string.h>
-#include <stdbool.h>
+
 
 void bubble_sort(int* tab, int taille){
     for(int j=0; j<taille-1; j++){
